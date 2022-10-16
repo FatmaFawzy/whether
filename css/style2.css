@@ -1,0 +1,79 @@
+:root{
+    --main-color:#1e202b;
+    --sec-color:#262936;
+    --blue:rgb(0, 154, 216);
+    --white:white;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    color: rgb(191, 193, 200);
+    font-family: Roboto, "Open Sans", sans-serif;
+    background-image: url(../imges/city.avif);
+    background-size: cover;
+    background-position: center center;
+} 
+.txt-logo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+/* .back-cont{
+    background-color:rgb(30, 32, 43);
+    height: 400px;
+    margin-top: 30px;
+} */
+.holl-contain{
+    background-color:#2629369c ;
+    border: solid 1px #2629369c ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 95%;
+    /* margin: auto; */
+    margin: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.card{
+    background-color: #1e202bae;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.date{
+    background-color: white;
+    padding: 15px 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: black;
+}
+.city{
+    padding: 15px 0px 25px 30px;
+}
+.foot-cont{
+    border-top: 1px solid white;
+}
+.icone{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.201);
+    font-size: 20px;
+    padding: 5px 20px;
+    margin: 0 4px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.icone:hover{
+    background-color: #1e202b;
+    color: rgb(0, 154, 216);
+}
